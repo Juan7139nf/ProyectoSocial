@@ -6,13 +6,17 @@ body{
     background-color: #8675a2;
 }
 main{
-    max-width: 720px;
-    height: 1117px;
-    background-image: url(../img/vImagenVideo.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
-    #imgVideo{
-        width: 100%;
-        height: 100%;
+    .video{
+        .video__play{
+            z-index: -5;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
     }
     .logoArriba{
         text-align: center;
@@ -20,7 +24,8 @@ main{
     .medio{
         text-align: center;
         width: 100%;
-        margin: 240px 0;
+        margin: 8% 0;
+        visibility: hidden;
     }
     .logoAbajo{
         text-align: right;
